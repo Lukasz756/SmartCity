@@ -1,6 +1,5 @@
 package com.example.smartcity.Authentication;
 
-import com.example.smartcity.Security.JwtService;
 import com.example.smartcity.User.Role;
 import com.example.smartcity.User.User;
 import com.example.smartcity.User.UserRepository;
@@ -10,7 +9,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.context.SecurityContextImpl;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
